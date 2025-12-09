@@ -1,0 +1,63 @@
+
+
+.newsletter {
+    margin-top: 78px;
+    width: 100%;
+    background: #042042;
+    /* dark blue */
+    color: #fff;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter-left h2 {
+    font-family: "Volkhov-Bold";
+    font-size: 28px;
+    margin: 0;
+}
+
+.newsletter-left p {
+    font-family: "Poppins-SemiBold";
+    margin-top: 10px;
+    font-size: 16px;
+    color: #cdd1dc;
+}
+
+.newsletter-left span {
+    color: #ffb300;
+    /* yellow highlight */
+    font-weight: 600;
+}
+
+/* Right Section */
+.newsletter-right {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-right input {
+    font-family: "Poppins-Regular";
+    padding: 12px 16px;
+    width: 280px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 16px;
+}
+
+.newsletter-right button {
+    padding: 12px 20px;
+    background: #0c8b79;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.newsletter-right button:hover {
+    background: #0a7365;
+} 

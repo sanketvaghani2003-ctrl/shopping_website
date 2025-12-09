@@ -1,0 +1,190 @@
+.contact-section {
+  margin-top: 78px;
+}
+
+.contact-banner {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('/about/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.banner_text {
+  font-family: "Volkhov-Regular";
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+  text-shadow:
+    0 2px 10px rgba(0, 0, 0, 0.8),
+    0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+.contact-banner_title {
+  font-family: "Volkhov-Regular";
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+
+.contact-info-wrapper {
+  margin-top: 78px;
+}
+
+
+
+.contact-left {
+  padding-right: 20px;
+}
+
+.sub-title {
+  font-family: "Poppins-SemiBold";
+  color: gray;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.contact-left h2 {
+  font-family: "Poppins-SemiBold";
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contact-left h3 {
+  font-family: "Poppins-SemiBold";
+
+  margin: 20px 0 10px;
+  font-size: 20px;
+}
+
+.contact-item {
+  font-family: "Poppins-SemiBold";
+
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+  font-size: 16px;
+  color: #444;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+
+.contact-right iframe {
+  width: 100%;
+  height: 400px;
+  border-radius: 15px;
+  border: none;
+}
+
+/* FORM + TEAM SECTION */
+.contact-form-wrapper {
+  padding: 70px 80px;
+}
+
+.form-left {
+  padding-right: 40px;
+}
+
+.form-subtitle {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  font-family: "Poppins-SemiBold";
+}
+
+.form-title {
+  font-size: 32px;
+  margin-bottom: 25px;
+  font-family: "Poppins-SemiBold";
+}
+
+/* Form Inputs */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 15px;
+  outline: none;
+}
+
+.contact-form textarea {
+  height: 160px;
+  resize: none;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #007a63;
+  border: none;
+  padding: 12px 28px;
+  color: white;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #005f4f;
+}
+
+/* TEAM SECTION */
+.contact-team {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.team-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.team-box img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-box h4 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-family: "Poppins-SemiBold";
+}
+
+.team-box p {
+  margin: 2px 0;
+  font-size: 14px;
+  color: #555;
+  font-family: "Poppins-Regular";
+}

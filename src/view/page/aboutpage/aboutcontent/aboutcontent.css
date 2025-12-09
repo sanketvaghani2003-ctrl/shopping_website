@@ -1,0 +1,76 @@
+.about-content {
+    margin-top: 78px;
+}
+
+.about-details {
+    padding-top: 75px;
+}
+
+.who-we-are {
+    font-family: "Volkhov-Regular";
+    font-size: 46px;
+    color: #484848;
+}
+
+.section-description {
+    font-family: "Poppins-Regular";
+    font-size: 20px;
+    margin-top: 15px;
+    color: #8A8A8A;
+}
+
+.about-support {
+    padding-top: 40px;
+    gap: 10px;
+}
+
+.feature-section {
+    padding: 20px 15px;
+    width: 208px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.feature-section:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+    margin: 1px 0;
+}
+
+
+.feature_title {
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin: 8px 20px;
+    padding: 10px;
+    color: #088178;
+    background-color: #fddde4;
+    /* default */
+}
+
+/* Different background colors for each box */
+.about-support .feature-section:nth-child(1) .feature_title {
+    background-color: #fddde4;
+}
+
+.about-support .feature-section:nth-child(2) .feature_title {
+    background-color: #cdebbc;
+}
+
+.about-support .feature-section:nth-child(3) .feature_title {
+    background-color: #d1e8f2;
+}
+
+.about-support .feature-section:nth-child(4) .feature_title {
+    background-color: #cdd4f8;
+}
+
+.about-support .feature-section:nth-child(5) .feature_title {
+    background-color: #f6dbf6;
+}
+
+.about-support .feature-section:nth-child(6) .feature_title {
+    background-color: #fff2e5;
+}

@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    overflow-x: hidden;
+
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+.slick-slider,
+.slick-list {
+    overflow: hidden !important;
+}
+
+/* Volkhov-Bold */
+
+/* 700 */
+@font-face {
+    font-family: "Volkhov-Bold";
+    src: url(/font/font_Volkhov/Volkhov-Bold.ttf);
+}
+
+/* 400 */
+@font-face {
+    font-family: "Volkhov-Regular";
+    src: url(/font/font_Volkhov/Volkhov-Regular.ttf);
+}
+
+/* poppings */
+
+/* 700 */
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(/font/font_Poppins/Poppins-Bold.ttf);
+}
+
+/* 600 */
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url(/font/font_Poppins/Poppins-SemiBold.ttf)
+}
+
+/* 500 */
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url(/font/font_Poppins/Poppins-Medium.ttf);
+}
+
+/* 400 */
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(/font/font_Poppins/Poppins-Regular.ttf);
+}
+
+/* 300 */
+@font-face {
+    font-family: "Poppins-Light";
+    src: url(/font/font_Poppins/Poppins-Light.ttf);
+}
+
+/* jost font */
+
+/* 700 */
+@font-face {
+    font-family: "Jost-Bold";
+    src: url(/font/font-Jost/Jost-Bold.ttf);
+}
+
+/* 600 */
+@font-face {
+    font-family: "Jost-SemiBold";
+    src: url(/font/font-Jost/Jost-SemiBold.ttf);
+}
+
+/* 500 */
+@font-face {
+    font-family: "Jost-Medium";
+    src: url(/font/font-Jost/Jost-Medium.ttf);
+}
+
+/* 400 */
+@font-face {
+    font-family: "Jost-Regular";
+    src: url(/font/font-Jost/Jost-Regular.ttf);
+}
+
+/* 300 */
+@font-face {
+    font-family: "Jost-Light";
+    src: url(/font/font-Jost/Jost-Light.ttf);
+}
+
+
+
+.shop-btn:active,
+.navbar-signup:active,
+.buy-btn:active,
+.more-product:active,
+.btnbuy:active,
+.subscribe-now:active,
+.btn-Checkout:active,
+.btn-pay:active,
+.btn-discount:active,
+.btn_acc_create:active,
+.btn_sign-in:active,
+.btn_register:active {
+    transform: translateY(4px);
+}

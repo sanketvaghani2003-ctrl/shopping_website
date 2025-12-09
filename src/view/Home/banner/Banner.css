@@ -1,0 +1,123 @@
+.banner-part {
+    margin-top: 150px;
+}
+
+.product-galary {
+    background-color: #dadada;
+    /* height: 570px; */
+}
+
+.banner-title {
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: #767676;
+    padding-top: 60px
+}
+
+.sub-title {
+    font-family: "Volkhov-Regular";
+    font-size: 46px;
+    color: #484848;
+    padding-top: 20px;
+}
+
+
+.banner-background {
+    width: 1055px;
+    height: 570px;
+}
+
+.banner-description-title {
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.banner-description-text {
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: #767676;
+    padding-top: 20px;
+    width: 515px;
+}
+
+.size-selector {
+    margin-top: 22px;
+    display: flex;
+    gap: 15px;
+}
+
+.size-label {
+    font-family: "Poppins-Regular";
+    color: #767676;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.size-option {
+    border: 2px solid black;
+    background-color: #000000;
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: #FFFFFF;
+    height: 28px;
+    width: 53px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.price {
+    font-family: "Poppins-Medium";
+    font-size: 28px;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.pricedot {
+    font-size: 24px;
+}
+
+.btnbuy {
+    border: none;
+    background-color: #000000;
+    font-family: "Poppins-Medium";
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 60px;
+    margin-top: 20px;
+    box-shadow: 0px 20px 35px 0px #00000026;
+
+}
+
+.feature-box {
+    align-items: center;
+    justify-content: center;
+    gap: 82px;
+    box-shadow: 0px 20px 52.29px 0px #4444440A;
+    height: 200px;
+}
+
+.feature-list {
+    gap: 13px;
+}
+
+
+
+.feature-title {
+    font-family: "Poppins-Medium";
+    font-size: 20px;
+    color: #484848;
+}
+
+.feature-text {
+    font-size: 16px;
+    font-family: "Poppins-Regular";
+    color: #484848;
+}

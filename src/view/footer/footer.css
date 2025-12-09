@@ -1,0 +1,79 @@
+.shopping-part {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    gap: 35px;
+    cursor: pointer;
+}
+
+.shopping {
+    background-color: #000000;
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+    box-shadow: 0px 20px 35px 0px #00000026;
+
+}
+
+.shop-icon {
+    padding: 18px;
+
+}
+
+.uparrow {
+    padding: 15px 20px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+}
+
+.uparrow-part {
+    border: none;
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+
+}
+
+.uparrow-icon {
+    padding: 16px 20px;
+}
+
+
+.footer-container {
+    border-top: 1px solid #DEDFE1;
+}
+
+.footer-details {
+    padding-top: 30px;
+    padding-left: 186px;
+    padding-right: 186px;
+    padding-bottom: 23px;
+    gap: 557px;
+}
+
+.footer-name {
+    font-size: 32px;
+    font-family: "Volkhov-Regular";
+    color: #484848;
+}
+
+.footer-menu {
+    display: flex;
+    gap: 36px;
+}
+
+.footer_menu-item {
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: #484848;
+    cursor: pointer;
+}
+
+.support-center {
+    width: 122px;
+}
+
+.copyright {
+    margin-bottom: 10px;
+}

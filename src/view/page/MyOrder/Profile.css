@@ -1,0 +1,74 @@
+.myprofile-container {
+    margin-top: 78px;
+}
+
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    animation: fadeIn 0.7s ease-in-out;
+}
+
+.profile-thead {
+    background: #1e90ff;
+    color: #fff;
+}
+
+.profile-th {
+    padding: 14px;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
+
+
+
+.profile-row {
+    position: relative;
+    transition: 0.25s ease;
+}
+
+.profile-row:hover {
+    background: linear-gradient(90deg, #e6f2ff, #f7fbff);
+    transform: scale(1.01);
+}
+
+.profile-row::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0%;
+    height: 2px;
+    background: #1e90ff;
+    transition: 0.4s ease;
+}
+
+.profile-row:hover::after {
+    width: 100%;
+    top: 100%;
+}
+
+.profile-td {
+    padding: 12px 14px;
+    font-size: 14px;
+    color: #444;
+}
+
+.profile-view-btn {
+    padding: 6px 14px;
+    border: none;
+    background: #1e90ff;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.profile-view-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(30, 144, 255, 0.4);
+    background: #1877d2;
+}

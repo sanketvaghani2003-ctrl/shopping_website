@@ -1,0 +1,154 @@
+.customers-section {
+    margin-top: 150px;
+    background-color: #FAFAFA;
+}
+
+
+.customers-title {
+    font-family: "Volkhov-Regular";
+    font-size: 46px;
+    color: #484848;
+}
+
+.cust-face {
+    height: 262px;
+    width: 263px;
+}
+
+.cust-rating {
+    height: 15px;
+    width: 15px;
+}
+
+
+
+.customber-desc {
+    font-family: "Volkhov-Regular";
+    font-size: 16px;
+    color: #8A8A8A;
+    line-height: 26px;
+    padding: 20px 15px;
+    margin-bottom: 79px;
+
+}
+
+.customer-slider {
+    padding: 50px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+/*  slider */
+.customer-cart {
+    padding: 40px 30px;
+    border: none;
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 60px 0px #2E213D14;
+    border-radius: 10px;
+}
+
+.customer-slider .slick-list,
+.customer-slider .slick-slider {
+    overflow: visible !important;
+}
+
+.customer-slider .slick-slide {
+    transition: all 0.3s ease;
+}
+
+.customer-slider .slick-slide.slick-current  {
+    transform: scale(1.35);
+}
+
+
+
+.card-inner {
+    background: #fff;
+    border-radius: 16px;
+    text-align: left
+}
+
+.cust-photo {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+
+}
+
+.customer-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.cust-photo::before {
+
+    content: "";
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 150px;
+    height: 150px;
+    background-image: url('/public/customer/bg.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.stars {
+    color: #f5b50a;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.customer-name {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.customer-role {
+    color: #888;
+    font-size: 14px;
+}
+
+
+.cust-review-part {
+    padding-left: 14px;
+}
+
+.cust-title {
+    font-size: 12px;
+}
+
+.cust-name {
+    font-family: "Volkhov-Regular";
+    font-size: 20px;
+    color: #484848;
+}
+
+.slick-slide {
+    position: relative;
+}
+
+.slick-center {
+    position: relative;
+    z-index: 10;
+}
+
+.slick-track {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.work {
+    font-family: "Poppins-Regular";
+    color: #484848;
+    font-size: 14px;
+}
+
+
+/*  slider  end*/

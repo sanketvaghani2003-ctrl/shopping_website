@@ -1,0 +1,286 @@
+.fashion-section {
+    margin-top: 78px;
+}
+
+.fashion-title {
+    font-family: "Volkhov-Regular";
+    font-size: 46px;
+    color: #000000;
+    line-height: 32px;
+}
+
+.fashion-part {
+    margin-top: 97px;
+}
+
+.filter {
+    font-family: "Volkhov-Regular";
+    font-size: 30px;
+    columns: #000000;
+    line-height: 36px;
+}
+
+.size {
+    margin-top: 33px;
+    font-family: "Jost-Regular";
+    font-size: 18px;
+    line-height: 28px;
+}
+
+
+
+
+.btn-fliter {
+    height: 42px;
+    margin-right: 10px;
+    width: 42px;
+    color: #8A8A8A;
+    font-family: "Jost-Regular";
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 12px;
+    border: 1px solid #8A8A8A;
+    border-radius: 5px;
+}
+
+.btn-fliter:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #C2A68C;
+
+}
+
+.color-container {
+    margin-top: 28px;
+}
+
+.colors-palette {
+    margin-top: 21px;
+    display: grid;
+    grid-template-columns: repeat(7, 30px);
+    gap: 8px;
+
+}
+
+.colors-choose {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    box-shadow: 0px 0px 0px 1px #0000001A;
+}
+
+.colors-choose:hover {
+    transform: scale(1.1);
+}
+
+.price {
+    font-family: "Volkhov-Regular";
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.price-range {
+    width: 89px;
+
+    color: #8A8A8A;
+    font-size: 16px;
+    font-family: "Poppins-Regular";
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.price-range:hover,
+.btn-brand:hover,
+.btn-collections:hover,
+.btn-tags:hover {
+    transform: scale(1.05);
+    color: #333;
+
+}
+
+/*brands accordian-0 */
+
+.accordion-button {
+    font-size: 18px;
+    line-height: 28px;
+    font-family: "Volkhov-Regular";
+    color: #000000;
+
+}
+
+.accordion-item {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.accordion-button {
+    padding-left: 0px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+    color: inherit !important;
+}
+
+
+
+.brands-list {
+    display: grid;
+    grid-template-columns: repeat(3, 77px);
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.btn-brand {
+    border: none;
+    background-color: transparent;
+    color: #8A8A8A;
+    font-family: "Jost-Regular";
+    line-height: 30px;
+}
+
+
+/*collections  accordian-1 */
+
+
+.collections-list {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.btn-collections {
+    border: none;
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    line-height: 24px;
+    background-color: transparent;
+    padding-bottom: 10px;
+    color: #8A8A8A;
+}
+
+
+.tags {
+    font-family: "Volkhov-Regular";
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.tags-names {
+    margin-top: 15px;
+    width: 322px;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.tags-item {
+    display: inline-block;
+}
+
+.btn-tags {
+    border: none;
+    padding: 0px 8px;
+    font-size: 16px;
+    color: #777777;
+    font-family: "Jost-Regular";
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+/* dropdown */
+.dropdown-toggle {
+    background-color: transparent !important;
+    border: none !important;
+    color: #000000 !important;
+    box-shadow: none !important;
+    font-family: "Volkhov-Regular";
+    font-size: 16px;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus,
+.dropdown-toggle:active,
+.show>.dropdown-toggle.btn-primary {
+    background-color: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+}
+
+.dropdown-menu {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.dropdown-item {
+    color: #333 !important;
+    font-family: "Jost-Regular";
+    font-size: 15px;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: rgba(123, 31, 162, 0.15) !important;
+    color: #7b1fa2 !important;
+}
+
+/* shop size change */
+
+.theme-change {
+    height: 34px;
+    width: 34px;
+    /* border: 1px solid black; */
+    background-color: #F2F2F2;
+}
+
+.chnage-shop-card {
+    padding: 11px;
+}
+
+.change-bar {
+    display: flex;
+    justify-content: end;
+}
+.change-bar button{
+    border: none;
+}
+
+/* products-parts */
+
+.products-content {
+    /* border: 1px solid red; */
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.products-name {
+    font-family: "Volkhov-Regular";
+    font-size: 16px;
+    color: #000000;
+}
+
+.products-price {
+    font-family: "Jost-Regular";
+    font-size: 16px;
+    color: #000000;
+}
+
+.choose-color {
+    height: 26px;
+    width: 26px;
+    background-color: #FFD700;
+    border-radius: 50%;
+}
+.choose-color1{
+     height: 26px;
+    width: 26px;
+    background-color: #000000;
+    border-radius: 50%;
+}

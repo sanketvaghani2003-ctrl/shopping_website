@@ -1,0 +1,54 @@
+.gallary-animation {
+    margin-top: 150px;
+}
+
+.gallary-title {
+    font-family: "Volkhov-Regular";
+    font-size: 46px;
+    color: #484848;
+    display: flex;
+    justify-content: center;
+}
+
+.gallary-description {
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    line-height: 26px;
+    width: 614px;
+    display: flex;
+    text-align: centers;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: #8A8A8A;
+}
+
+
+/* image sliedr code */
+
+.insta-slider {
+    overflow: hidden;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.gallary-part {
+    margin-top: 25px;
+}
+
+.insta-slider .gallary-row {
+    display: flex;
+    width: max-content;
+    animation: slide 20s linear infinite;
+}
+
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}

@@ -1,0 +1,63 @@
+.subscribe-banner {
+    padding-top: 150px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.subscribe-center {
+    padding-top: 207px;
+    width: 631px;
+}
+
+
+
+
+.subscribe-title {
+    font-size: 41px;
+    font-family: "Volkhov-Regular";
+    max-width: 600px;
+    color: #484848;
+}
+
+.subscribe-description {
+    width: 614px;
+    font-size: 16px;
+    color: #8A8A8A;
+    font-family: "Poppins-Regular";
+}
+
+.mail-contect {
+    padding-top: 29px;
+    padding-bottom: 32px;
+    padding-left: 31px;
+    padding-right: 371px;
+    font-size: 22px;
+    font-family: "Poppins-Regular";
+    color: #8A8A8A;
+    box-shadow:
+        0px 3.02px 3.15px 0px #00000002,
+        0px 13.28px 6.52px 0px #00000004,
+        0px 32.6px 13px 0px #00000005,
+        0px 62.79px 25.48px 0px #00000006,
+        0px 105.65px 46.85px 0px #00000008,
+        0px 163px 80px 0px #0000000A;
+
+
+}
+
+
+.subscribe-now {
+    margin: 0 auto;
+    border: none;
+    background-color: #000000;
+    font-family: "Poppins-Medium";
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 60px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 20px 35px 0px #00000026;
+
+}

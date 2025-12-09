@@ -1,0 +1,73 @@
+.myOrderDetails-section {
+    margin-top: 78px;
+}
+
+.orderData p {
+    font-family: "Volkhov-Regular";
+    font-size: 24px;
+    font-family: "Jost-SemiBold";
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.order-table th {
+    text-align: left;
+    font-family: "Jost-SemiBold";
+    padding: 10px;
+    background: #f5f5f5;
+    width: 40%;
+    font-weight: 600;
+}
+
+.order-table td {
+    font-family: "Poppins-SemiBold";
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background: #fff;
+}
+
+/* --- col-7 */
+
+
+.order-item-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.item-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.item-table th {
+    text-align: left;
+    background: #f5f5f5;
+    padding: 10px;
+    width: 40%;
+    font-weight: 600;
+    font-family: "Jost-SemiBold";
+}
+
+.item-table td {
+    padding: 10px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    font-family: "Poppins-SemiBold";
+}
+
+.item-table tr:last-child td {
+    border-bottom: none;
+}
+
+.item-table img {
+    border-radius: 4px;
+    width: 200px;
+    object-fit: cover;
+}

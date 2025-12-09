@@ -1,0 +1,59 @@
+.logo-brand {
+  margin-top: 27px;
+  margin-bottom: 100px;
+}
+
+.logo-slider {
+
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background: white;
+}
+
+.brand-logo-slider {
+  box-shadow: 0px 20px 52.29px 0px #4444440A;
+
+}
+
+.logo-track {
+  padding-top: 89px;
+  padding-bottom: 86px;
+  display: flex;
+  width: calc(200%);
+  /* ensures space for duplicate logos */
+  animation: scroll 15s linear infinite;
+  box-shadow: 0px 40px 90px 0px #0000000F;
+
+}
+
+.logo-track img {
+  margin: 0 40px;
+  object-fit: contain;
+}
+
+/* Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+/* mobile screen */
+@media only screen and (max-width: 426px) {
+  .logo-track {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .logo-brand {
+    margin-bottom: 10px;
+
+  }
+
+}

@@ -1,0 +1,50 @@
+.about-section {
+    margin-top: 78px;
+}
+
+.about-banner {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* 👈 title niche lane ke liye */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(/public/about/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(2px);
+    /* 👈 blur little extra for better look */
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.banner-text {
+    font-family: "Volkhov-Regular";
+    position: relative;
+    z-index: 2;
+    color: #F5F5F5;
+    font-size: 48px;
+    font-weight: bold;
+    text-shadow:
+        0 2px 10px rgba(0, 0, 0, 0.8),
+        0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+.about-banner-title {
+    font-family: "Volkhov-Regular";
+    position: relative;
+    z-index: 2;
+    color: #FFD580;
+    font-size: 20px;
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.7);
+}

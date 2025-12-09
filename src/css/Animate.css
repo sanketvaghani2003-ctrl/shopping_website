@@ -1,0 +1,7 @@
+.title-checkout,
+.fashion-title,
+.shopping_title {
+    animation: zoomIn;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+}

@@ -1,0 +1,379 @@
+.product__details {
+    margin-top: 71px;
+}
+
+.product-details-container {
+    margin-left: 35px;
+}
+
+.product-item-select {
+    width: 90px;
+    height: 727px;
+}
+
+.select-item {
+    margin-bottom: 10px;
+}
+
+
+
+.small-logo {
+    font-family: "Volkhov-Regular";
+    font-size: 14px;
+    line-height: 20px;
+    color: #666666;
+}
+
+.product-name {
+    font-family: "Volkhov-Regular";
+    color: #000000;
+    font-size: 30px;
+    line-height: 42px;
+    margin-bottom: 0px;
+}
+
+.rating-number {
+    font-family: "Jost-Regular";
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #000000;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.price-section {
+    margin-top: 20px;
+}
+
+.dis-price {
+    font-family: "Volkhov-Regular";
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 0px;
+
+}
+
+.product-item-price {
+    font-family: "Jost-Regular";
+    font-size: 16px;
+    line-height: 19.2px;
+    color: #666666;
+    text-decoration: line-through;
+    margin-left: 8px;
+}
+
+.price-save {
+    background-color: #DA3F3F;
+    color: #FFFFFF;
+    font-family: "Jost-Medium";
+    font-size: 11px;
+    line-height: 16px;
+    width: 73px;
+    height: 21px;
+    border-radius: 11px;
+    text-transform: uppercase;
+    padding: 2.5px 10px;
+    margin-left: 19px;
+}
+
+.people-view {
+    margin-top: 36px;
+}
+
+.people-viewing {
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color: #8A8A8A;
+    font-size: 16px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+.end-sale {
+    border: 1px solid #F8CCCC;
+    background-color: #FDEFEE;
+    border-radius: 4px;
+    padding: 13px 14px;
+    margin-top: 30px;
+    /* height: 54px; */
+}
+
+.sale-text {
+    color: #FF706B;
+    font-family: "Volkhov-Regular";
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 0px;
+}
+
+
+
+/* .sale-end-time{ }*/
+
+.sale-hours {
+    width: 50px;
+    height: 32px;
+    /* border: 1px solid black; */
+}
+
+.sale-hours h3 {
+    margin-bottom: 0px;
+}
+
+.sale-clock {
+    color: #FF706B;
+    font-family: "Jost-SemiBold";
+    font-size: 20px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.gem {
+    margin-left: 10px;
+    font-family: "Jost-Regular";
+    font-size: 22px;
+    line-height: 33px;
+    color: #FF706B;
+}
+
+.stock-left {
+    font-family: "Jost-Regular";
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    margin-top: 29px;
+}
+
+.stock {
+    font-family: "Jost-Bold";
+}
+
+.line-bar {
+    width: 29.25px;
+    height: 5px;
+    background-color: #EF2D2D;
+    border-radius: 2px;
+}
+
+.second-line {
+    background-color: #DEDEDE;
+    width: 585px;
+    height: 5px;
+    border-radius: 2px;
+}
+
+.size-number {
+    font-family: "Volkhov-Bold";
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+
+}
+
+.m-size {
+    font-family: "Volkhov-Regular";
+    font-size: 16px;
+    color: #000000;
+}
+
+.series {
+    height: 45px;
+    width: 45px;
+    background-color: #EEEEEE;
+    border: none;
+    border-radius: 5px;
+    font-family: "Poppins-Medium";
+    font-size: 18px;
+    padding: 9px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.series:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.series:active {
+    transform: translateY(4px);
+}
+
+.color-select h4 {
+    font-family: "Volkhov-Bold";
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.color-name {
+    font-family: "Volkhov-Regular";
+    font-size: 16px;
+    color: #000000;
+}
+
+.color-circle {
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 2px solid transparent;
+}
+
+.color-circle.selected {
+    box-shadow: 0 0 0 3px white, 0 0 0 4px #000000;
+}
+
+.quntity {
+    margin-top: 29px;
+}
+
+.quntity h4 {
+    font-family: "Volkhov-Regular";
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 13px;
+}
+
+
+
+.product-quntity-number {
+    border: 2px solid #8A8A8A;
+    width: 130px;
+    border-radius: 5px;
+}
+
+.product-quntity-number button {
+    height: 42px;
+    width: 42px;
+    border: none;
+    background-color: #FFFFFF;
+    font-family: "Jost-Regular";
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.add-card {
+    background-color: transparent;
+    width: 100%;
+    border: 2px solid #EEEEEE;
+    border-radius: 5px;
+    height: 46px;
+}
+
+.add-card:hover {
+    border-color: black;
+    background-color: #f8f8f8;
+    transform: scale(1.03);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-card h3 {
+    font-family: "Volkhov-Regular";
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+    padding: 11px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    height: 46px;
+    transition: color 0.3s ease;
+}
+
+.add-card:hover h3 {
+    color: #222;
+}
+
+.add-card:active {
+    transform: scale(0.97);
+    background-color: #e5e5e5;
+    border-color: black;
+}
+
+.action-bar {
+    margin-top: 66px;
+    gap: 30px;
+}
+
+.Compare,
+.Share {
+    gap: 8px;
+    width: 100px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.question {
+    gap: 8px;
+    width: 138px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.action-title {
+    font-family: "Jost-Regular";
+    font-size: 16px;
+    color: #000000;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+
+.action-title1,
+.delivery-date {
+    font-family: "Jost-Regular";
+    font-size: 16px;
+    color: #000000;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+
+.share-img {
+    height: auto;
+    width: 18px;
+}
+
+.delivery {
+    margin-top: 29px;
+    gap: 5px;
+}
+
+.delivery-title,
+.Shipping-title {
+    font-family: "Volkhov-Bold";
+    font-size: 16px;
+    color: #000000;
+}
+
+
+.Shipping-price {
+    font-family: "Volkhov-Regular";
+    font-size: 16px;
+    color: #000000;
+    line-height: 24px;
+}
+
+.delivery-Shipping {
+    margin-top: 7px;
+    gap: 5px;
+}
+
+.pay-card {
+    margin-top: 30px;
+    border: none;
+    background-color: #F8F8F8;
+    width: 100%;
+    padding: 20px;
+}
+
+.safe-checkout {
+    margin-top: 21px;
+    font-family: "Volkhov-Regular";
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 0px;
+}

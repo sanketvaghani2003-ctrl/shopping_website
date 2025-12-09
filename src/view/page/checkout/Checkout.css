@@ -1,0 +1,215 @@
+.product-payment-details {
+    margin-top: 72px;
+}
+
+.title-checkout {
+    font-family: "Volkhov-Regular";
+    font-size: 42px;
+    color: #000000;
+}
+
+.product-container hr {
+    opacity: 39%;
+}
+
+.checkout_info {
+    padding-top: 20px;
+}
+
+.checkout-body {
+    padding-left: 118px;
+}
+
+#email {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #8A8A8A;
+}
+
+
+.section-title {
+    font-family: "Volkhov-Regular";
+    font-size: 46px;
+    color: #484848;
+}
+
+
+
+/* #country-choose, */
+#lname,
+#fname,
+#uid,
+#address,
+#city,
+#pincode,
+.payment-select 
+{
+    width: 100%;
+    padding: 10px;
+    margin-top: 26px;
+    border: 1px solid #8A8A8A;
+    font-size: 14px;
+    outline: none;
+    border-radius: 0;
+    background: #fff;
+}
+
+
+
+select option[value=""] {
+    color: #484848;
+}
+
+.form-row {
+    display: flex;
+    gap: 12px;
+}
+
+.form-row>* {
+    flex: 1;
+}
+
+.checkbox-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #8A8A8A;
+
+}
+
+.checkbox {
+    border: 3px solid #000;
+
+}
+
+.checkbox-row input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    border-radius: 0;
+    border: 3px solid #000;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.payment-card-logo {
+    width: 40px;
+    height: 22px;
+    border-radius: 4px;
+    background: linear-gradient(to right, #ff5f00 0 50%, #002b7f 50% 100%);
+}
+
+#cnumber,
+#seccode,
+#seccode,
+#expdate,
+#chname {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #8A8A8A;
+    margin-top: 10px;
+    font-size: 14px;
+    outline: none;
+    border-radius: 0;
+    background: #fff;
+}
+
+.pay_field {
+    margin-top: 10px;
+}
+
+.payment-field {
+    padding: 18px;
+    background-color: #F5F5F5;
+}
+
+.btn-pay {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.copyright {
+    margin-top: 36px;
+    font-size: 12px;
+    font-family: "Poppins-Regular";
+    color: #484848;
+}
+/* -------------------------------- */
+
+.checkout-product {
+    background-color: #F5F5F5;
+    height: 505px;
+}
+
+.checkout__product {
+    margin-left: 81px;
+    /* border: 1px solid red; */
+    width: 544px;
+}
+
+.checkout-product_info {
+    padding-top: 42px;
+}
+
+
+.checkout-product__wrapper {
+    padding-top: 30px;
+    gap: 20px;
+}
+
+.checkout-product_title {
+    font-family: "Volkhov-Regular";
+    font-size: 18px;
+    color: #000000;
+}
+
+.checkout-product_color,
+.checkout-product_price,
+.subtotal,
+.Shipping,
+.subtotal_price,
+.sipping_price {
+    font-family: "Poppins-Regular";
+    color: #484848;
+    font-size: 14px;
+}
+
+.discount-row {
+    margin-top: 10px;
+}
+
+.discount-input {
+    width: 290px;
+    border: none;
+    padding: 10px;
+}
+
+.btn-discount {
+    margin-left: 10px;
+    border: none;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 117px;
+    border-radius: 10px;
+}
+
+.price-total {
+    margin-top: 10px;
+}
+
+.total,
+.total_price {
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: #000000;
+}

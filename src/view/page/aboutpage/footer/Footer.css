@@ -1,0 +1,66 @@
+.footer {
+    margin: 78px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-container {
+    border-top: none;
+}
+
+
+.footer-left h3,
+.footer-links h3,
+.footer-install h3 {
+    font-family: "Poppins-SemiBold";
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-left p,
+.footer-links p,
+.footer-install p {
+    font-family: "Poppins-SemiBold";
+    margin: 5px 0;
+    color: #444;
+}
+
+.social-icons i {
+    font-size: 18px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.footer-links p:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.footer-install .app-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.applepay,
+.gpay {
+    border: 2px solid #9ab4b1;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.payments {
+    width: 200px;
+    margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+}
