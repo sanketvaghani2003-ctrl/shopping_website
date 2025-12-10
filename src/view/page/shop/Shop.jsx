@@ -17,6 +17,7 @@ const Shop = () => {
 
     const [numb, setNumb] = useState(4);
     const [product, setProduct] = useState([]);
+    const [loading, setLoading] = useState("");
 
 
     const brands = ["Minimog", "Retrolie", "Brook", "Learts", "Vagabond", "Abby"];
@@ -49,6 +50,7 @@ const Shop = () => {
 
 
     useEffect(() => {
+        setLoading(true);
         axios.get("https://studiogo.tech/student/shoppingapi/products.php").then((response) => {
             if (response.status == 200) {
                 let json = response.data;
@@ -57,9 +59,19 @@ const Shop = () => {
             }
         }).catch((error) => {
             console.log(error);
-
         })
+        setTimeout(() => {
+            setLoading(false);
+        }, 2000);
     }, [])
+
+    if (loading) {
+        return (
+            <div style={{ display: "flex", justifyContent: "center", marginTop: 250 }}>
+                <div class="loader"></div>
+            </div>
+        )
+    }
 
     return (
         <>
