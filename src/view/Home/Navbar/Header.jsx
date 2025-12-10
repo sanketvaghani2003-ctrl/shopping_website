@@ -27,6 +27,7 @@ const Header = () => {
     }
 
     function handleMyProfile() {
+         sessionStorage.clear();
         navigate('/Profile');
     }
 
