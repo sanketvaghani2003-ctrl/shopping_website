@@ -142,22 +142,22 @@ const ProductsDetails = () => {
                             <div className="col-1">
                                 <div className='product-item-select'>
                                     <div className='select-item'>
-                                        <img src="/public/product/shirt-img.svg" className='img-fluid w-100' alt="" />
+                                        <img src="/product/shirt-img.svg" className='img-fluid w-100' alt="" />
                                     </div>
                                     <div className='select-item'>
-                                        <img src="/public/product/woman-model-img.svg" className='img-fluid w-100' alt="" />
+                                        <img src="/product/woman-model-img.svg" className='img-fluid w-100' alt="" />
                                     </div>
                                     <div className='select-item'>
-                                        <img src="/public/product/woman-model-img-2.svg" className='img-fluid  w-100' alt="" />
+                                        <img src="/product/woman-model-img-2.svg" className='img-fluid  w-100' alt="" />
                                     </div>
                                     <div className='select-item'>
-                                        <img src="/public/product/woman-model-img-3.svg" className='img-fluid  w-100' alt="" />
+                                        <img src="/product/woman-model-img-3.svg" className='img-fluid  w-100' alt="" />
                                     </div>
                                     <div className='select-item'>
-                                        <img src="/public/product/woman-model-img-4.svg" className='img-fluid  w-100' alt="" />
+                                        <img src="/product/woman-model-img-4.svg" className='img-fluid  w-100' alt="" />
                                     </div>
                                     <div className='select-item'>
-                                        <img src="/public/product/woman-model-img-5.svg" className='img-fluid w-100' alt="" />
+                                        <img src="/product/woman-model-img-5.svg" className='img-fluid w-100' alt="" />
                                     </div>
 
 
@@ -175,11 +175,11 @@ const ProductsDetails = () => {
                                     <h4 className='small-logo'>Fasco</h4>
                                     <h3 className='product-name'>{product.title}</h3>
                                     <div className='products-rating d-flex'>
-                                        <img src="/public/product/star.svg" className='img-fluid ' alt="product-rating" />
-                                        <img src="/public/product/star.svg" className='img-fluid ' alt="product-rating" />
-                                        <img src="/public/product/star.svg" className='img-fluid ' alt="product-rating" />
-                                        <img src="/public/product/star.svg" className='img-fluid ' alt="product-rating" />
-                                        <img src="/public/product/star-blank.svg" className='img-fluid ' alt="product-rating" />
+                                        <img src="/product/star.svg" className='img-fluid ' alt="product-rating" />
+                                        <img src="/product/star.svg" className='img-fluid ' alt="product-rating" />
+                                        <img src="/product/star.svg" className='img-fluid ' alt="product-rating" />
+                                        <img src="/product/star.svg" className='img-fluid ' alt="product-rating" />
+                                        <img src="/product/star-blank.svg" className='img-fluid ' alt="product-rating" />
                                         <h4 className='rating-number'>(3)</h4>
                                     </div>
                                     <div className='price-section d-flex'>
@@ -187,7 +187,7 @@ const ProductsDetails = () => {
                                         <h3 className='price-save text-center'>Save 33%</h3>
                                     </div>
                                     <div className='people-view d-flex'>
-                                        <img src="/public/product/eye.svg" className='img-fluid' alt="" />
+                                        <img src="/product/eye.svg" className='img-fluid' alt="" />
                                         <p className='people-viewing'>24 people are viewing this right now</p>
                                     </div>
                                     <div className='end-sale'>
@@ -279,34 +279,34 @@ const ProductsDetails = () => {
 
                                     <div className='action-bar d-flex '>
                                         <div className='Compare d-flex'>
-                                            <img src="/public/product/up-down-arrow-img.svg" className='img-fluid' alt="" />
+                                            <img src="/product/up-down-arrow-img.svg" className='img-fluid' alt="" />
                                             <h4 className='action-title text-center '>Compare</h4>
                                         </div>
 
                                         <div className='question d-flex'>
-                                            <img src="/public/product/ask-question-img.svg" className='img-fluid' alt="" />
+                                            <img src="/product/ask-question-img.svg" className='img-fluid' alt="" />
                                             <h4 className='action-title1 text-center '>Ask a question</h4>
                                         </div>
 
                                         <div className='Share d-flex'>
-                                            <img src="/public/product/share-img.svg" className='img-fluid share' alt="" />
+                                            <img src="/product/share-img.svg" className='img-fluid share' alt="" />
                                             <h4 className='action-title text-center '>Share</h4>
                                         </div>
                                     </div>
                                     <hr />
 
                                     <div className='delivery  d-flex '>
-                                        <img src="/public/product/truck-img.svg" className='img-fluid ' alt="truck delivery" />
+                                        <img src="/product/truck-img.svg" className='img-fluid ' alt="truck delivery" />
                                         <h4 className='delivery-title mb-0 '>Estimated Delivery: <span className='delivery-date'>Jul 30 - Aug 03</span></h4>
                                     </div>
 
                                     <div className='delivery-Shipping  d-flex '>
-                                        <img src="/public/product/box-img.svg" className='img-fluid ' alt="truck delivery" />
+                                        <img src="/product/box-img.svg" className='img-fluid ' alt="truck delivery" />
                                         <h4 className='Shipping-title mb-0 '>Free Shipping & Returns: <span className='Shipping-price'> On all orders over $75</span></h4>
                                     </div>
 
                                     <div className='pay-card'>
-                                        <img src="/public/product/payment -img.svg" className='img-fluid mx-auto d-block' alt="" />
+                                        <img src="/product/payment -img.svg" className='img-fluid mx-auto d-block' alt="" />
                                         <p className='safe-checkout text-center'>Guarantee safe & secure checkout</p>
                                     </div>
                                 </div>

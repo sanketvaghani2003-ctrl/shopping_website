@@ -51,12 +51,12 @@ const Footer = () => {
                         <p>From App Store or Google Play</p>
 
                         <div className="app-buttons">
-                            <img src="/public/footer/gplay.jpg" className="img-fluid gpay" alt="Google Play" />
-                            <img src="/public/footer/app.jpg" className="img-fluid applepay" alt=" App Store" />
+                            <img src="/footer/gplay.jpg" className="img-fluid gpay" alt="Google Play" />
+                            <img src="/footer/app.jpg" className="img-fluid applepay" alt=" App Store" />
                         </div>
 
                         <p>Secured Payment Gateways</p>
-                        <img src="/public/footer/pay.png" alt="Payments" className="payments" />
+                        <img src="/footer/pay.png" alt="Payments" className="payments" />
                     </div>
 
                 </div>

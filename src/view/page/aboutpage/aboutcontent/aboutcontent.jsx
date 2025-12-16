@@ -3,12 +3,12 @@ import './aboutcontent.css'
 const Aboutcontent = () => {
 
     const features = [
-        { img: "/public/about/f1.png", title: "Free Shipping" },
-        { img: "/public/about/f2.png", title: "Online Order" },
-        { img: "/public/about/f3.png", title: "Save Money" },
-        { img: "/public/about/f4.png", title: "Promotions" },
-        { img: "/public/about/f5.png", title: "Happy Sell" },
-        { img: "/public/about/f6.png", title: "24/7 Support" }
+        { img: "/about/f1.png", title: "Free Shipping" },
+        { img: "/about/f2.png", title: "Online Order" },
+        { img: "/about/f3.png", title: "Save Money" },
+        { img: "/about/f4.png", title: "Promotions" },
+        { img: "/about/f5.png", title: "Happy Sell" },
+        { img: "/about/f6.png", title: "24/7 Support" }
     ];
     return (<>
 
@@ -17,7 +17,7 @@ const Aboutcontent = () => {
                 <div className="row">
                     <div className="col-5">
                         <div className='about-fashion-image'>
-                            <img src="/public/about/fashion.jpg" className='img-fluid' alt="fashion img" />
+                            <img src="/about/fashion.jpg" className='img-fluid' alt="fashion img" />
                         </div>
                     </div>
                     <div className="col-7">

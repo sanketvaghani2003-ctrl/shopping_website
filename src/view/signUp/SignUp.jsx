@@ -72,7 +72,7 @@ const SignUp = () => {
                     <div className="row">
                         <div className="col-6">
                             <div className="signIn-img-parts">
-                                <img src="/public/signUp/sign_Up.png" className="img-fluid signup" alt="" />
+                                <img src="/signUp/sign_Up.png" className="img-fluid signup" alt="" />
                             </div>
                         </div>
                         <div className="col-6">
@@ -83,13 +83,13 @@ const SignUp = () => {
                                     <div className='row'>
                                         <div className="col-6">
                                             <div className='google-signUp d-flex'>
-                                                <img src="/public/signIn/google-img.svg" className='img-fluid google-img' alt="" />
+                                                <img src="/signIn/google-img.svg" className='img-fluid google-img' alt="" />
                                                 <h4 className='google d-flex  align-items-center justify-content-center'>Sign up with Google</h4>
                                             </div>
                                         </div>
                                         <div className="col-6">
                                             <div className='mails-singUp d-flex'>
-                                                <img src="/public/signIn/mail-img.svg" className='img-fluid mail-img' alt="" />
+                                                <img src="/signIn/mail-img.svg" className='img-fluid mail-img' alt="" />
                                                 <h4 className='mails d-flex  align-items-center justify-content-center'>Sign up with Google</h4>
                                             </div>
                                         </div>

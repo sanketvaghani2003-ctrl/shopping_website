@@ -20,11 +20,11 @@ const Footer = () => {
 
                 <div className='shopping-part d-flex'>
                     <div className='shopping  justify-content-center '>
-                        <img src="/public/img/shopping.png" onClick={handleshopChange} className='shop-icon  w-100 img-fulid' alt="shop icon" />
+                        <img src="/img/shopping.png" onClick={handleshopChange} className='shop-icon  w-100 img-fulid' alt="shop icon" />
                     </div>
 
                     <div className='uparrow-part  justify-content-center '>
-                        <img src="/public/img/uparrow.png" onClick={handleChange} className=" uparrow img-fulid back-to-top-icon" alt="up arrow icon" />
+                        <img src="/img/uparrow.png" onClick={handleChange} className=" uparrow img-fulid back-to-top-icon" alt="up arrow icon" />
                     </div>
                 </div>
 

@@ -10,7 +10,7 @@ const Subscribe = () => {
                     <div className='d-flex  justify-content-center'>
 
                         <div className='subscribe-img '>
-                            <img src="/public/subscribe/sub1.png" alt="" />
+                            <img src="/subscribe/sub1.png" alt="" />
                         </div>
 
                         <div className='subscribe-center'>
@@ -28,7 +28,7 @@ const Subscribe = () => {
 
 
                         <div className='promo-img'>
-                            <img src="/public/subscribe/sub2.png" alt="" />
+                            <img src="/subscribe/sub2.png" alt="" />
                         </div>
                     </div>
                 </div>

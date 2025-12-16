@@ -98,7 +98,7 @@ const Contactpage = () => {
                             <div className="contact-team">
 
                                 <div className="team-box">
-                                    <img src="/public/contact/m-1.jpg" className='img-fluid' alt="John" />
+                                    <img src="/contact/m-1.jpg" className='img-fluid' alt="John" />
                                     <div>
                                         <h4>John Doe</h4>
                                         <p>Senior Marketing Manager</p>
@@ -108,7 +108,7 @@ const Contactpage = () => {
                                 </div>
 
                                 <div className="team-box">
-                                    <img src="/public/contact/m-2.jpg" className='img-fluid' alt="William" />
+                                    <img src="/contact/m-2.jpg" className='img-fluid' alt="William" />
                                     <div>
                                         <h4>William Smith</h4>
                                         <p>Senior Marketing Manager</p>
@@ -118,7 +118,7 @@ const Contactpage = () => {
                                 </div>
 
                                 <div className="team-box">
-                                    <img src="/public/contact/m-3.jpg" alt="Emma" />
+                                    <img src="/contact/m-3.jpg" alt="Emma" />
                                     <div>
                                         <h4>Emma Stone</h4>
                                         <p>Senior Marketing Manager</p>

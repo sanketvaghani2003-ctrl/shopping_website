@@ -52,7 +52,7 @@ const ShoppingCart = () => {
                 <h3 className="shopping_title text-center">Shopping Cart</h3>
                 <div className='page-show text-center d-flex justify-content-center gap-2'>
                     <h4 className='page-change'>Home</h4>
-                    <img src="/public/shoppingCart/greaterthen.svg" className='img-fluid ' alt="" />
+                    <img src="/shoppingCart/greaterthen.svg" className='img-fluid ' alt="" />
                     <h4 className='page-change'>Your Shopping Cart</h4>
                 </div>
 

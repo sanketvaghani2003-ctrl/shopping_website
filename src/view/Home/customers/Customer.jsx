@@ -50,7 +50,7 @@ const Customer = () => {
                             <div className="customer-cart">
                                 <div className="card-inner d-flex">
                                     <div className="cust-photo">
-                                        <img src="/public/customer/c-1.svg" alt="Test" className="customer-img" />
+                                        <img src="/customer/c-1.svg" alt="Test" className="customer-img" />
                                     </div>
                                     <div className="cust-review-part">
                                         <div className='cust-title'>
@@ -58,11 +58,11 @@ const Customer = () => {
                                         </div>
 
                                         <div className="cust-star pt-2 d-flex align-items-center ">
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
                                         </div>
                                         <hr />
                                         <div>
@@ -76,7 +76,7 @@ const Customer = () => {
                             <div className="customer-cart">
                                 <div className="card-inner d-flex">
                                     <div className="cust-photo">
-                                        <img src="/public/customer/c-2.svg" alt="Test" className="customer-img" />
+                                        <img src="/customer/c-2.svg" alt="Test" className="customer-img" />
                                     </div>
                                     <div className="cust-review-part">
                                         <div className='cust-title'>
@@ -84,11 +84,11 @@ const Customer = () => {
                                         </div>
 
                                         <div className="cust-star pt-2 d-flex align-items-center ">
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
                                         </div>
                                         <hr />
                                         <div>
@@ -102,7 +102,7 @@ const Customer = () => {
                             <div className="customer-cart">
                                 <div className="card-inner d-flex">
                                     <div className="cust-photo">
-                                        <img src="/public/customer/c-3.svg" alt="Test" className="customer-img" />
+                                        <img src="/customer/c-3.svg" alt="Test" className="customer-img" />
                                     </div>
                                     <div className="cust-review-part">
                                         <div className='cust-title'>
@@ -110,11 +110,11 @@ const Customer = () => {
                                         </div>
 
                                         <div className="cust-star pt-2 d-flex align-items-center ">
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
                                         </div>
                                         <hr />
                                         <div>
@@ -128,7 +128,7 @@ const Customer = () => {
                             <div className="customer-cart">
                                 <div className="card-inner d-flex">
                                     <div className="cust-photo">
-                                        <img src="/public/customer/c-1.svg" alt="Test" className="customer-img" />
+                                        <img src="/customer/c-1.svg" alt="Test" className="customer-img" />
                                     </div>
                                     <div className="cust-review-part">
                                         <div className='cust-title'>
@@ -136,11 +136,11 @@ const Customer = () => {
                                         </div>
 
                                         <div className="cust-star pt-2 d-flex align-items-center ">
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
                                         </div>
                                         <hr />
                                         <div>
@@ -154,7 +154,7 @@ const Customer = () => {
                             <div className="customer-cart">
                                 <div className="card-inner d-flex">
                                     <div className="cust-photo">
-                                        <img src="/public/customer/c-2.svg" alt="Test" className="customer-img" />
+                                        <img src="/customer/c-2.svg" alt="Test" className="customer-img" />
                                     </div>
                                     <div className="cust-review-part">
                                         <div className='cust-title'>
@@ -162,11 +162,11 @@ const Customer = () => {
                                         </div>
 
                                         <div className="cust-star pt-2 d-flex align-items-center ">
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
                                         </div>
                                         <hr />
                                         <div>
@@ -180,7 +180,7 @@ const Customer = () => {
                             <div className="customer-cart">
                                 <div className="card-inner d-flex">
                                     <div className="cust-photo">
-                                        <img src="/public/customer/c-3.svg" alt="Test" className="customer-img" />
+                                        <img src="/customer/c-3.svg" alt="Test" className="customer-img" />
                                     </div>
                                     <div className="cust-review-part">
                                         <div className='cust-title'>
@@ -188,11 +188,11 @@ const Customer = () => {
                                         </div>
 
                                         <div className="cust-star pt-2 d-flex align-items-center ">
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
-                                            <img src="/public/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
+                                            <img src="/NewArrivals/star.png" className='cust-rating' alt="rating star" />
                                         </div>
                                         <hr />
                                         <div>
@@ -207,12 +207,12 @@ const Customer = () => {
 
                         <div className='slider-icon gap-4 d-flex mt-5 pt-5 justify-content-center align-items-center'>
                             <div className='slider-btn  ' onClick={() => sliderRef.current.slickPrev()} >
-                                <img src="/public/deals/slider-left.png" className='slider-icon-left ' alt="left slider" />
+                                <img src="/deals/slider-left.png" className='slider-icon-left ' alt="left slider" />
 
                             </div>
 
                             <div className='slider-btn' onClick={() => sliderRef.current.slickNext()}  >
-                                <img src="/public/deals/slider-right.png" className='slider-icon-right ' alt="right slider" />
+                                <img src="/deals/slider-right.png" className='slider-icon-right ' alt="right slider" />
                             </div>
                         </div>
                     </div>

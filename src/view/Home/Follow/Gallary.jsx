@@ -20,53 +20,53 @@ const Gallary = () => {
             <div className='insta-slider'>
                 <div className='gallary-row d-flex'>
                     <div className='gallary-part '>
-                        <img src="/public/Gallary/gallary1.png" className=' img-fluid gallary-img ' alt="" />
+                        <img src="/Gallary/gallary1.png" className=' img-fluid gallary-img ' alt="" />
                     </div>
                     <div>
-                        <img src="/public/Gallary/gallary2.png" className='img-fluid w-100' alt="" />
+                        <img src="/Gallary/gallary2.png" className='img-fluid w-100' alt="" />
                     </div>
 
                     <div className='gallary-part'>
-                        <img src="/public/Gallary/gallary3.png" className='img-fluid  w-100' alt="" />
+                        <img src="/Gallary/gallary3.png" className='img-fluid  w-100' alt="" />
                     </div>
                     <div>
-                        <img src="/public/Gallary/gallary4.png" className='img-fluid w-100' alt="" />
+                        <img src="/Gallary/gallary4.png" className='img-fluid w-100' alt="" />
                     </div>
                     <div className='gallary-part'>
-                        <img src="/public/Gallary/gallary5.png" className='img-fluid w-100' alt="" />
+                        <img src="/Gallary/gallary5.png" className='img-fluid w-100' alt="" />
                     </div>
                     <div>
-                        <img src="/public/Gallary/gallary6.png" className='img-fluid w-100' alt="" />
+                        <img src="/Gallary/gallary6.png" className='img-fluid w-100' alt="" />
                     </div>
 
                     <div className='gallary-part'>
-                        <img src="/public/Gallary/gallary7.png" className='img-fluid w-100' alt="" />
+                        <img src="/Gallary/gallary7.png" className='img-fluid w-100' alt="" />
                     </div>
 
                     {/* copy  */}
 
                     <div className='gallary-part '>
-                        <img src="/public/Gallary/gallary1.png" className=' img-fluid gallary-img ' alt="" />
+                        <img src="/Gallary/gallary1.png" className=' img-fluid gallary-img ' alt="" />
                     </div>
                     <div>
-                        <img src="/public/Gallary/gallary2.png" className='img-fluid w-100' alt="" />
+                        <img src="/Gallary/gallary2.png" className='img-fluid w-100' alt="" />
                     </div>
 
                     <div className='gallary-part'>
-                        <img src="/public/Gallary/gallary3.png" className='img-fluid  w-100' alt="" />
+                        <img src="/Gallary/gallary3.png" className='img-fluid  w-100' alt="" />
                     </div>
                     <div>
-                        <img src="/public/Gallary/gallary4.png" className='img-fluid w-100' alt="" />
+                        <img src="/Gallary/gallary4.png" className='img-fluid w-100' alt="" />
                     </div>
                     <div className='gallary-part'>
-                        <img src="/public/Gallary/gallary5.png" className='img-fluid w-100' alt="" />
+                        <img src="/Gallary/gallary5.png" className='img-fluid w-100' alt="" />
                     </div>
                     <div>
-                        <img src="/public/Gallary/gallary6.png" className='img-fluid w-100' alt="" />
+                        <img src="/Gallary/gallary6.png" className='img-fluid w-100' alt="" />
                     </div>
 
                     <div className='gallary-part'>
-                        <img src="/public/Gallary/gallary7.png" className='img-fluid w-100' alt="" />
+                        <img src="/Gallary/gallary7.png" className='img-fluid w-100' alt="" />
                     </div>
 
 

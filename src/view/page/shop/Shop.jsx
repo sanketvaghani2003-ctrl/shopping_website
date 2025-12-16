@@ -83,7 +83,7 @@ const Shop = () => {
                     </div>
                     <div class="page-show text-center d-flex justify-content-center gap-2">
                         <h4 class="page-change">Home</h4>
-                        <img className="img-fluid " alt="" src="/public/shoppingCart/greaterthen.svg" />
+                        <img className="img-fluid " alt="" src="/shoppingCart/greaterthen.svg" />
                         <h4 class="page-change">Fashion</h4>
                     </div>
 
@@ -203,23 +203,23 @@ const Shop = () => {
                                         <div className="col-6">
                                             <div className="change-bar  gap-2">
                                                 <div className="theme-change ">
-                                                    <button> <img src="/public/fashion/icon-1.png" className=" chnage-shop-card img-fluid" alt="" /></button>
+                                                    <button> <img src="/fashion/icon-1.png" className=" chnage-shop-card img-fluid" alt="" /></button>
                                                 </div>
 
                                                 <div className="theme-change ">
-                                                    <button onClick={(e) => handleItem(6)}><img src="/public/fashion/icon-2.png" className=" chnage-shop-card img-fluid" alt="" /></button>
+                                                    <button onClick={(e) => handleItem(6)}><img src="/fashion/icon-2.png" className=" chnage-shop-card img-fluid" alt="" /></button>
                                                 </div>
 
                                                 <div className="theme-change ">
-                                                    <button onClick={(e) => handleItem(4)}> <img src="/public/fashion/icon-3.png" className=" chnage-shop-card img-fluid" alt="" /></button>
+                                                    <button onClick={(e) => handleItem(4)}> <img src="/fashion/icon-3.png" className=" chnage-shop-card img-fluid" alt="" /></button>
                                                 </div>
 
                                                 <div className="theme-change ">
-                                                    <button onClick={(e) => handleItem(2)}><img src="/public/fashion/icon-4.png" className=" chnage-shop-card img-fluid" alt="" /></button>
+                                                    <button onClick={(e) => handleItem(2)}><img src="/fashion/icon-4.png" className=" chnage-shop-card img-fluid" alt="" /></button>
                                                 </div>
 
                                                 <div className="theme-change ">
-                                                    <button> <img src="/public/fashion/icon-5.png" className=" chnage-shop-card img-fluid" alt="" /></button>
+                                                    <button> <img src="/fashion/icon-5.png" className=" chnage-shop-card img-fluid" alt="" /></button>
                                                 </div>
                                             </div>
                                         </div>
