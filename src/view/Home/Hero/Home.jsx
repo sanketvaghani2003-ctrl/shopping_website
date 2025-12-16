@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Footer from '../../footer/Fotter';
 import Banner from '../banner/Banner';
 import Customer from '../customers/Customer';
@@ -7,11 +8,22 @@ import LogoSlider from '../LogoSlider/LogoSlider';
 import NewArrivals from '../NewArrivals/NewArrivals';
 import Subscribe from '../Subscribe/Subscribe';
 import './Home.css'
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 
 const Home = () => {
     let navigate = useNavigate();
+
+    const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const element = document.querySelector(location.hash);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
 
 
     function handleclick() {

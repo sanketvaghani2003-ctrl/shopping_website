@@ -49,12 +49,12 @@ const Header = () => {
                             </li>
                             <li className="nav-item">
                                 {/* <Link className="nav-link active" aria-current="page" to="#">Deals</Link> */}
-                                <a href="#deals" className="nav-link active">Deals</a>
+                                <a href="/#deals" className="nav-link active">Deals</a>
 
                             </li>
                             <li className="nav-item">
                                 {/* <Link className="nav-link active" aria-current="page" to="#">New Arrivals</Link> */}
-                                <a href="#newArrivals" className="nav-link active">New Arrivals</a>
+                                <a href="/#newArrivals" className="nav-link active">New Arrivals</a>
                             </li>
                             <li className="nav-item">
                                 <Link  className="nav-link active" aria-current="page" to="#">Packages</Link>
