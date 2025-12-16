@@ -27,7 +27,7 @@ const Home = () => {
                     <div className="row">
                         <div className="col-12 col-lg-4 ">
                             <div className='model-part d-flex '>
-                                <img src="/public/img/hero-img-1.png" className='model w-100 object-cover  img-fluid' alt="person with cloth" />
+                                <img src="/img/hero-img-1.png" className='model w-100 object-cover  img-fluid' alt="person with cloth" />
                             </div>
                         </div>
                         <div className="col-12 col-lg-4 ">

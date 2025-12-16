@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import './Contact.css';
 import Footer from '../../aboutpage/footer/Footer';
 import Newsletter from '../../aboutpage/newsletter/Newsletter';
