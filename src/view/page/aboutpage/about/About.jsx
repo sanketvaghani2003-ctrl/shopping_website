@@ -1,4 +1,4 @@
-import Newsletter from '../newsletter/newsletter';
+import Newsletter from '../newsletter/Newsletter';
 import './About.css'
 import Aboutcontent from '../aboutcontent/aboutcontent';
 import Footer from '../footer/Footer';
