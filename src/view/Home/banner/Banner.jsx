@@ -11,7 +11,7 @@ const Banner = () => {
                     <div className="row">
                         <div className="col-12 col-lg-7">
                             <div className="banner-left-image h-100 ">
-                                <img src="/banner/bannerone.png" className='banner-background img-fluid' alt="" />
+                                <img src="/public/banner/bannerone.png" className='banner-background img-fluid' alt="" />
                             </div>
                         </div>
                         <div className="col-12 col-lg-5">
