@@ -26,12 +26,12 @@ const NewArrivals = () => {
                         <div className="row">
 
 
-                            <ArrivalsProduct image="/public/NewArrivals/dress1.png" title="Shiny Dress" subtitle="Al Karam" star="/public/NewArrivals/star.png" review="(4.1k) Customer Reviews" price="$95.50" soldout="Almost Sold Out" />
-                            <ArrivalsProduct image="/public/NewArrivals/dress2.png" title="Long Dress" subtitle="Al Karam" star="/public/NewArrivals/star.png" review="(4.1k) Customer Reviews" price="$95.50" soldout="Almost Sold Out" />
-                            <ArrivalsProduct image="/public/NewArrivals/dress3.png" title="Full Sweater" subtitle="Al Karam" star="/public/NewArrivals/star.png" review="(4.1k) Customer Reviews" price="$95.50" soldout="Almost Sold Out" />
-                            <ArrivalsProduct image="/public/NewArrivals/dress4.png" title="White Dress" subtitle="Al Karam" star="/public/NewArrivals/star.png" review="(4.1k) Customer Reviews" price="$95.50" soldout="Almost Sold Out" />
-                            <ArrivalsProduct image="/public/NewArrivals/dress5.png" title="Colorful Dress" subtitle="Al Karam" star="/public/NewArrivals/star.png" review="(4.1k) Customer Reviews" price="$95.50" soldout="Almost Sold Out" />
-                            <ArrivalsProduct image="/public/NewArrivals/dress6.png" title="White Shirt" subtitle="Al Karam" star="/public/NewArrivals/star.png" review="(4.1k) Customer Reviews" price="$95.50" soldout="Almost Sold Out" />
+                            <ArrivalsProduct image="/NewArrivals/dress1.png" title="Shiny Dress" subtitle="Al Karam" star="/public/NewArrivals/star.png" review="(4.1k) Customer Reviews" price="$95.50" soldout="Almost Sold Out" />
+                            <ArrivalsProduct image="/NewArrivals/dress2.png" title="Long Dress" subtitle="Al Karam" star="/public/NewArrivals/star.png" review="(4.1k) Customer Reviews" price="$95.50" soldout="Almost Sold Out" />
+                            <ArrivalsProduct image="/NewArrivals/dress3.png" title="Full Sweater" subtitle="Al Karam" star="/public/NewArrivals/star.png" review="(4.1k) Customer Reviews" price="$95.50" soldout="Almost Sold Out" />
+                            <ArrivalsProduct image="/NewArrivals/dress4.png" title="White Dress" subtitle="Al Karam" star="/public/NewArrivals/star.png" review="(4.1k) Customer Reviews" price="$95.50" soldout="Almost Sold Out" />
+                            <ArrivalsProduct image="/NewArrivals/dress5.png" title="Colorful Dress" subtitle="Al Karam" star="/public/NewArrivals/star.png" review="(4.1k) Customer Reviews" price="$95.50" soldout="Almost Sold Out" />
+                            <ArrivalsProduct image="/NewArrivals/dress6.png" title="White Shirt" subtitle="Al Karam" star="/public/NewArrivals/star.png" review="(4.1k) Customer Reviews" price="$95.50" soldout="Almost Sold Out" />
 
 
 
