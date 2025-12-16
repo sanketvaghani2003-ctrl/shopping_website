@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./shop.css";
+import "./Shop.css";
 import Accordion from "react-bootstrap/Accordion";
 import Dropdown from "react-bootstrap/Dropdown";
 import Banner from "../../Home/banner/Banner";
