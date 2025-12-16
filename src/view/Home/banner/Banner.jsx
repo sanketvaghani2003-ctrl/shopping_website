@@ -40,7 +40,7 @@ const Banner = () => {
                     <div className="feature-box d-flex">
                         <div className='feature-list d-flex'>
                             <div className="feature-icon">
-                                <img src="/public/banner/quality.png" className=" w-100 img-fluid" alt="High Quality" />
+                                <img src="/banner/quality.png" className=" w-100 img-fluid" alt="High Quality" />
                             </div>
                             <div className="feature-content">
                                 <h4 className="feature-title">High Quality</h4>
@@ -50,7 +50,7 @@ const Banner = () => {
 
                         <div className='feature-list d-flex'>
                             <div className="feature-icon">
-                                <img src="/public/banner/true-img.png" className=" w-100 img-fluid" alt="High Quality" />
+                                <img src="/banner/true-img.png" className=" w-100 img-fluid" alt="High Quality" />
                             </div>
                             <div className="feature-content">
                                 <h4 className="feature-title">Warrany Protection</h4>
@@ -60,7 +60,7 @@ const Banner = () => {
 
                         <div className='feature-list d-flex'>
                             <div className="feature-icon ">
-                                <img src="/public/banner/box-img.png" className=" w-100 img-fluid" alt="High Quality" />
+                                <img src="/banner/box-img.png" className=" w-100 img-fluid" alt="High Quality" />
                             </div>
                             <div className="feature-content">
                                 <h4 className="feature-title">Free Shipping</h4>
@@ -70,7 +70,7 @@ const Banner = () => {
 
                         <div className='feature-list d-flex'>
                             <div className="feature-icon">
-                                <img src="/public/banner/call-img.png" className=" w-100 img-fluid" alt="High Quality" />
+                                <img src="/banner/call-img.png" className=" w-100 img-fluid" alt="High Quality" />
                             </div>
                             <div className="feature-content">
                                 <h4 className="feature-title">24 / 7 Support</h4>
