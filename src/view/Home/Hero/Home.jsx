@@ -44,7 +44,7 @@ const Home = () => {
                         </div>
                         <div className="col-12 col-lg-4 ">
                             <div className='model-two d-flex '>
-                                <img src="/public/img/hero-img-2.png" className='img-fluid' alt="top model" />
+                                <img src="/img/hero-img-2.png" className='img-fluid' alt="top model" />
                             </div>
 
                             <div className='title text-center'>ULTIMATE</div>
@@ -53,13 +53,13 @@ const Home = () => {
                             <p className="subtitle">NEW COLLECTION</p>
                             <button type="submit" onClick={handleclick} className='shop-btn d-flex'>SHOP NOW</button>
                             <div className='model-three  d-flex '>
-                                <img src="/public/img/hero-img-3.png" className='img-fluid' alt="top model" />
+                                <img src="/img/hero-img-3.png" className='img-fluid' alt="top model" />
                             </div>
                         </div>
 
                         <div className="col-12 col-lg-4 ">
                             <div className='model-part d-flex '>
-                                <img src="/public/img/hero-img-4.png" className='model1 img-fluid ' alt="person with cloth" />
+                                <img src="/img/hero-img-4.png" className='model1 img-fluid ' alt="person with cloth" />
                             </div>
                         </div>
 
