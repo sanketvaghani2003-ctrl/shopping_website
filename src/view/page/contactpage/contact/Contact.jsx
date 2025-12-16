@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './Contact.css';
 import Footer from '../../aboutpage/footer/Footer';
-import Newsletter from '../../aboutpage/newsletter/newsletter';
+import Newsletter from '../../aboutpage/newsletter/Newsletter';
 
 const Contactpage = () => {
     return (
