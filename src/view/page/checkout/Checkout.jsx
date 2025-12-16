@@ -298,78 +298,81 @@ const Checkout = () => {
 
                         </div>
                         <div className="col-6">
-                            <div className="checkout-product">
-                                {
-                                    viewproduct && viewproduct.map((obj) => {
-                                        return (<>
-                                            <div className='checkout__product'>
-                                                <div className="checkout-product__wrapper d-flex">
-                                                    <img src={obj.img1} width={200} className="checkout-product__image img-fluid" alt="Product image" />
-                                                    <div className="checkout-product_info">
-                                                        <p className="checkout-product_title">{obj.title}</p>
+                            <div className="right scroll-area">
+                                <div className="checkout-product">
+                                    {
+                                        viewproduct && viewproduct.map((obj) => {
+                                            return (<>
+                                                <div className='checkout__product'>
+                                                    <div className="checkout-product__wrapper d-flex">
+                                                        <img src={obj.img1} width={200} className="checkout-product__image img-fluid" alt="Product image" />
+                                                        <div className="checkout-product_info">
+                                                            <p className="checkout-product_title">{obj.title}</p>
 
-                                                        <div className="checkout-product_details d-flex justify-content-between align-items-center">
-                                                            <p className="checkout-product_color">{obj.qty} X ${obj.price} = </p>
-                                                            <p className="checkout-product_price">${obj.price * obj.qty}</p>
+                                                            <div className="checkout-product_details d-flex justify-content-between align-items-center">
+                                                                <p className="checkout-product_color">{obj.qty} X ${obj.price} = </p>
+                                                                <p className="checkout-product_price">${obj.price * obj.qty}</p>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                {/* <div className="discount-row">
+                                                    {/* <div className="discount-row">
                                                     <input className="discount-input" type="text" placeholder="Discount code" />
                                                     <button className="btn-discount">Apply</button>
                                                 </div> */}
 
-                                                {/* CART-LEVEL discount input */}
-                                                <div className="discount-row mt-3">
-                                                    <input className="discount-input" type="text" placeholder="Discount code" value={discountCode} onChange={(e) => setDiscountCode(e.target.value)} disabled={!!appliedCode} />
+                                                    {/* CART-LEVEL discount input */}
+                                                    <div className="discount-row mt-3">
+                                                        <input className="discount-input" type="text" placeholder="Discount code" value={discountCode} onChange={(e) => setDiscountCode(e.target.value)} disabled={!!appliedCode} />
 
-                                                    <button type="button" className="btn-discount" onClick={applyDiscount} disabled={!discountCode.trim() || !!appliedCode}>{appliedCode ? 'Applied' : 'Apply'} </button>
+                                                        <button type="button" className="btn-discount" onClick={applyDiscount} disabled={!discountCode.trim() || !!appliedCode}>{appliedCode ? 'Applied' : 'Apply'} </button>
 
-                                                    {appliedCode && (
-                                                        <button type="button" className="btn-discount ms-2" onClick={removeDiscount}>
-                                                            Remove
-                                                        </button>
-                                                    )}
-                                                </div>
-
-                                                {codeMessage && <p className="mt-2 small">{codeMessage}</p>}
-
-                                                {/* Totals */}
-                                                <div className='price-total mt-3'>
-                                                    <div className="d-flex justify-content-between align-items-center">
-                                                        <p className="subtotal">Subtotal</p>
-                                                        <p className="subtotal_price">${(parseFloat(total) || 0).toFixed(2)}</p>
+                                                        {appliedCode && (
+                                                            <button type="button" className="btn-discount ms-2" onClick={removeDiscount}>
+                                                                Remove
+                                                            </button>
+                                                        )}
                                                     </div>
 
-                                                    {discountAmount > 0 && (
+                                                    {codeMessage && <p className="mt-2 small">{codeMessage}</p>}
+
+                                                    {/* Totals */}
+                                                    <div className='price-total mt-3'>
                                                         <div className="d-flex justify-content-between align-items-center">
-                                                            <p className="discount">Discount</p>
-                                                            <p className="discount_price">- ${(discountAmount).toFixed(2)}</p>
+                                                            <p className="subtotal">Subtotal</p>
+                                                            <p className="subtotal_price">${(parseFloat(total) || 0).toFixed(2)}</p>
                                                         </div>
-                                                    )}
 
-                                                    <div className="d-flex justify-content-between align-items-center">
-                                                        <p className="total fw-bold">Final Total</p>
-                                                        <p className="total_price fw-bold">${(parseFloat(finalTotal) || 0).toFixed(2)}</p>
+                                                        {discountAmount > 0 && (
+                                                            <div className="d-flex justify-content-between align-items-center">
+                                                                <p className="discount">Discount</p>
+                                                                <p className="discount_price">- ${(discountAmount).toFixed(2)}</p>
+                                                            </div>
+                                                        )}
+
+                                                        <div className="d-flex justify-content-between align-items-center">
+                                                            <p className="total fw-bold">Final Total</p>
+                                                            <p className="total_price fw-bold">${(parseFloat(finalTotal) || 0).toFixed(2)}</p>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div>
+                                                        {
+                                                            total && <div className='price-total'>
+                                                                <div className=" d-flex justify-content-between align-items-center">
+                                                                    <p className="total">Total</p>
+                                                                    <p className=" total_price">${total}</p>
+                                                                </div>
+                                                            </div>
+                                                        }
                                                     </div>
                                                 </div>
-
-
-                                                <div>
-                                                    {
-                                                        total && <div className='price-total'>
-                                                            <div className=" d-flex justify-content-between align-items-center">
-                                                                <p className="total">Total</p>
-                                                                <p className=" total_price">${total}</p>
-                                                            </div>
-                                                        </div>
-                                                    }
-                                                </div>
-                                            </div>
-                                        </>)
-                                    })
-                                }
+                                            </>)
+                                        })
+                                    }
+                                </div>
                             </div>
+
 
                         </div>
                     </div>

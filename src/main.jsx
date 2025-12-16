@@ -17,9 +17,9 @@ import Profile from './view/page/MyOrder/Profile';
 import MyOrderDetails from './view/page/myorderdetails/MyOrderDetails';
 import About from './view/page/aboutpage/about/About';
 import Aboutcontent from './view/page/aboutpage/aboutcontent/aboutcontent';
-import Newsletter from './view/page/aboutpage/newsletter/newsletter';
 import Footer from './view/page/aboutpage/footer/Footer';
 import Contactpage from './view/page/contactpage/contact/Contact';
+import Newsletter from './view/page/aboutpage/newsletter/Newsletter';
 
 
 createRoot(document.getElementById('root')).render(

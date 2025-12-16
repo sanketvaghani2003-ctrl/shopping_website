@@ -18,6 +18,7 @@ const Shop = () => {
     const [numb, setNumb] = useState(4);
     const [product, setProduct] = useState([]);
     const [loading, setLoading] = useState("");
+    const productsPerPage = 5;
 
 
     const brands = ["Minimog", "Retrolie", "Brook", "Learts", "Vagabond", "Abby"];
