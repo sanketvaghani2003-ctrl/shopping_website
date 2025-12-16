@@ -116,24 +116,24 @@ const Deals = () => {
                                 <div className="slider-container object-cover object-top   ">
                                     <Slider ref={sliderRef} {...settings}>
                                         <div className='position-absolute'>
-                                            <img src="/public/deals/img1.png" className=' deal-model img-fluid' alt="black dress girl" />
+                                            <img src="/deals/img1.png" className=' deal-model img-fluid' alt="black dress girl" />
                                         </div>
 
                                         <div>
-                                            <img src="/public/deals/img2.png" className=' deal-mode  img-fluid' alt="black dress girl" />
+                                            <img src="/deals/img2.png" className=' deal-mode  img-fluid' alt="black dress girl" />
                                         </div>
                                         <div>
-                                            <img src="/public/deals/img3.png" className=' deal-model  img-fluid' alt="black dress girl" />
+                                            <img src="/deals/img3.png" className=' deal-model  img-fluid' alt="black dress girl" />
                                         </div>
 
                                         <div>
-                                            <img src="/public/deals/img1.png" className=' deal-model  img-fluid' alt="black dress girl" />
+                                            <img src="/deals/img1.png" className=' deal-model  img-fluid' alt="black dress girl" />
                                         </div>
                                         <div>
-                                            <img src="/public/deals/img2.png" className=' deal-mode  img-fluid' alt="black dress girl" />
+                                            <img src="/deals/img2.png" className=' deal-mode  img-fluid' alt="black dress girl" />
                                         </div>
                                         <div>
-                                            <img src="/public/deals/img3.png" className=' deal-model  img-fluid' alt="black dress girl" />
+                                            <img src="/deals/img3.png" className=' deal-model  img-fluid' alt="black dress girl" />
                                         </div>
                                     </Slider>
                                 </div>
@@ -144,12 +144,12 @@ const Deals = () => {
                                 <div className='position-relative'>
                                     <div className='slider-icon gap-4 d-flex position-absolute'>
                                         <div className='slider-btn ' onClick={() => sliderRef.current.slickPrev()}>
-                                            <img src="/public/deals/slider-left.png" className=' slider-icon-left ' alt="left slider" />
+                                            <img src="/deals/slider-left.png" className=' slider-icon-left ' alt="left slider" />
 
                                         </div>
 
                                         <div className='slider-btn' onClick={() => sliderRef.current.slickNext()} >
-                                            <img src="/public/deals/slider-right.png" className='  slider-icon-right ' alt="right slider" />
+                                            <img src="/deals/slider-right.png" className='  slider-icon-right ' alt="right slider" />
                                         </div>
                                     </div>
                                 </div>
