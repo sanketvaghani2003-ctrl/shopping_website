@@ -92,7 +92,7 @@
     right: 8px;
     width: 150px;
     height: 150px;
-    background-image: url('/public/customer/bg.png');
+    background-image: url('/customer/bg.png');
     background-size: cover;
     background-position: center;
     z-index: 1;

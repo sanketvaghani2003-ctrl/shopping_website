@@ -1,12 +1,14 @@
 import axios from 'axios';
 import './SignIn.css'
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const SignIn = () => {
 
 
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const navigate= useNavigate;
 
 
     function inputemail(e) {
@@ -35,7 +37,8 @@ const SignIn = () => {
                     sessionStorage.setItem("islogin", "yes");
                     sessionStorage.setItem("user_id", json.userdata.user_id);
                     sessionStorage.setItem("name", json.userdata.name);
-                    window.location = "/";
+                    // window.location = "/";
+                    navigate("/");
                 }
                 else {
                     alert(json.message);

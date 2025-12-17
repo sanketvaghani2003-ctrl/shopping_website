@@ -18,7 +18,7 @@ const Shop = () => {
     const [numb, setNumb] = useState(4);
     const [product, setProduct] = useState([]);
     const [loading, setLoading] = useState("");
-    const productsPerPage = 5;
+    // const productsPerPage = 5;
 
 
     const brands = ["Minimog", "Retrolie", "Brook", "Learts", "Vagabond", "Abby"];
@@ -207,15 +207,15 @@ const Shop = () => {
                                                 </div>
 
                                                 <div className="theme-change ">
-                                                    <button onClick={(e) => handleItem(6)}><img src="/fashion/icon-2.png" className=" chnage-shop-card img-fluid" alt="" /></button>
+                                                    <button onClick={() => handleItem(6)}><img src="/fashion/icon-2.png" className=" chnage-shop-card img-fluid" alt="" /></button>
                                                 </div>
 
                                                 <div className="theme-change ">
-                                                    <button onClick={(e) => handleItem(4)}> <img src="/fashion/icon-3.png" className=" chnage-shop-card img-fluid" alt="" /></button>
+                                                    <button onClick={() => handleItem(4)}> <img src="/fashion/icon-3.png" className=" chnage-shop-card img-fluid" alt="" /></button>
                                                 </div>
 
                                                 <div className="theme-change ">
-                                                    <button onClick={(e) => handleItem(2)}><img src="/fashion/icon-4.png" className=" chnage-shop-card img-fluid" alt="" /></button>
+                                                    <button onClick={() => handleItem(2)}><img src="/fashion/icon-4.png" className=" chnage-shop-card img-fluid" alt="" /></button>
                                                 </div>
 
                                                 <div className="theme-change ">
