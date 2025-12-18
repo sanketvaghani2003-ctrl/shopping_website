@@ -104,20 +104,20 @@ const Header = () => {
                     </div>
                     <div className='nav-icon '>
                         <div className='icon'>
-                            <img src="/public/navbar/search-icon.svg" className='img-fluid' alt="" />
+                            <img src="/navbar/search-icon.svg" className='img-fluid' alt="" />
                         </div>
                         <div className='icon' onClick={handleMyProfile} >
-                            <img src="/public/navbar/man-icon.svg" className='img-fluid' alt="" />
+                            <img src="/navbar/man-icon.svg" className='img-fluid' alt="" />
                         </div>
                         <div className='icon'>
-                            <img src="/public/navbar/star-icon.svg" className='img-fluid' alt="" />
+                            <img src="/navbar/star-icon.svg" className='img-fluid' alt="" />
                         </div>
                         <div className="icon cart-icon" onClick={handlepagechange}>
-                            <img src="/public/navbar/shop-icon.svg" className="img-fluid" alt="" />
+                            <img src="/navbar/shop-icon.svg" className="img-fluid" alt="" />
                             <span className="cart-badge">1</span>
                         </div>
                         <div className='icon' onClick={handleLogout}>
-                            <img src="/public/navbar/exit.svg" className='img-fluid' alt="" />
+                            <img src="/navbar/exit.svg" className='img-fluid' alt="" />
                         </div>
                     </div>
                 </div>

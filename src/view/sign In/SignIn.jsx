@@ -37,15 +37,14 @@ const SignIn = () => {
                     sessionStorage.setItem("islogin", "yes");
                     sessionStorage.setItem("user_id", json.userdata.user_id);
                     sessionStorage.setItem("name", json.userdata.name);
-                    // window.location = "/";
-                    navigate("/");
+                    window.location = "/";
                 }
                 else {
                     alert(json.message);
                 }
             }
         }).catch((error) => {
-            console.log("username and password invalid");
+            console.log(error);
         })
     }
 
@@ -98,7 +97,7 @@ const SignIn = () => {
 
                                         <button type="submit" className='btn_sign-in'>Sign In</button>
                                         <button type="button" className='btn_register'>Register Now</button>
-                                        <h3 className='forget_pass '>Forget Password?</h3>
+                                        <h3 className='forget_pass'>Forget Password?</h3>
                                     </form>
                                 </div>
 
