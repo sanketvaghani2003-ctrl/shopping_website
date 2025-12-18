@@ -19,7 +19,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background-image: url(/public/about/banner.jpg);
+    background-image: url(/about/banner.jpg);
     background-size: cover;
     background-position: center;
     filter: blur(2px);
