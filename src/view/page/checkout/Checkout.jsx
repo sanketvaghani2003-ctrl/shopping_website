@@ -110,18 +110,15 @@ const Checkout = () => {
         // headers: {"Content-Type": "application/json"},
         // body: JSON.stringify({ amount: 500 }) // Rs. 500
         // }).then(res => res.json());
-
-
-
-
     }
 
 
 
     useEffect(() => {
+        const userId = sessionStorage.getItem("user_id");
 
         let formdata = new FormData();
-        formdata.append("user_id", 26);
+        formdata.append("user_id", userId);
 
         axios.post("https://studiogo.tech/student/shoppingapi/viewcart.php", formdata, {
             headers: {
@@ -161,8 +158,10 @@ const Checkout = () => {
 
 
     useEffect(() => {
+        const userId = sessionStorage.getItem("user_id");
+
         let formdata = new FormData();
-        formdata.append("user_id", 26);
+        formdata.append("user_id", userId);
 
         axios.post("https://studiogo.tech/student/shoppingapi/viewcarttotal.php", formdata, {
             headers: {

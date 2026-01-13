@@ -55,6 +55,7 @@ const Shop = () => {
         axios.get("https://studiogo.tech/student/shoppingapi/products.php").then((response) => {
             if (response.status == 200) {
                 let json = response.data;
+                // console.log(json);
                 setProduct(response.data);
 
             }
@@ -233,8 +234,6 @@ const Shop = () => {
                                                         </>)
                                                     })
                                                 }
-
-
                                             </div>
                                         </div>
                                     </div>{/* end row */}
