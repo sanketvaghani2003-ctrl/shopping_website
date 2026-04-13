@@ -26,9 +26,6 @@ const Customer = () => {
         ],
     };
 
-
-
-
     return (<>
 
         <section className='customers-section'>

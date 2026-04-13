@@ -44,8 +44,8 @@ const Footer = () => {
                     </div>
 
                 </div>
-                <div className='copyright text-center'>Copyright © 2022 Xpro . All Rights Reseved.</div>
             </div>
+                <div className='copyright text-center'>Copyright © 2022 Xpro . All Rights Reseved.</div>
         </section>
 
     </>)

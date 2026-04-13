@@ -2,7 +2,8 @@ const ArrivalsProduct = (props) => {
 
     return (<>
 
-        <div className="col-12 col-lg-4">
+        {/* <div className="col-12 col-lg-4"> */}
+        <div className="col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
             <div className="product-menu">
                 <div className='product-item text-center'>
                 <img src={props.image} className=' img-fluid' alt="Shiny Dress" />
@@ -18,7 +19,7 @@ const ArrivalsProduct = (props) => {
                                 {props.subtitle}
                             </div>
                         </div>
-                        <div className="col-6">
+                        <div className=" col-6">
                             <div className="product-rating">
                                 <img src={props.star} className='img-fluid' alt="rating star"  />
                                 <img src={props.star} className='img-fluid' alt="rating star" />

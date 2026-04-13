@@ -39,7 +39,8 @@
     font-size: 16px;
     color: #767676;
     padding-top: 20px;
-    width: 515px;
+     max-width: 500px;
+    width: 100%;
 }
 
 .size-selector {

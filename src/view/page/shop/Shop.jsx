@@ -19,6 +19,8 @@ const Shop = () => {
     const [product, setProduct] = useState([]);
     const [loading, setLoading] = useState("");
     // const productsPerPage = 5;
+    const [currentPage, setCurrentPage] = useState(1);
+    const productsPerPage = 6; // per page kitne products
 
 
     const brands = ["Minimog", "Retrolie", "Brook", "Learts", "Vagabond", "Abby"];
@@ -57,7 +59,6 @@ const Shop = () => {
                 let json = response.data;
                 // console.log(json);
                 setProduct(response.data);
-
             }
         }).catch((error) => {
             console.log(error);
@@ -74,6 +75,13 @@ const Shop = () => {
             </div>
         )
     }
+
+    // pagination code
+    const indexOfLastProduct = currentPage * productsPerPage;
+    const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
+    const currentProducts = product.slice(indexOfFirstProduct, indexOfLastProduct);
+
+    const totalPages = Math.ceil(product.length / productsPerPage);
 
     return (
         <>
@@ -228,13 +236,44 @@ const Shop = () => {
                                         <div className="products-parts">
                                             <div className="row">
                                                 {
-                                                    product && product.map((obj) => {
+                                                    currentProducts && currentProducts.map((obj) => {
                                                         return (<>
                                                             <ShopItem numb={numb} id={obj.product_id} image={obj.img1} name={obj.title} price={obj.price} color1="" />
                                                         </>)
                                                     })
                                                 }
                                             </div>
+                                        </div>
+
+                                        <div className="pagination d-flex justify-content-center mt-4 gap-2">
+                                            <button
+                                                disabled={currentPage === 1}
+                                                onClick={() => setCurrentPage(currentPage - 1)}
+                                                className="btn btn-outline-dark"
+                                            >
+                                                Prev
+                                            </button>
+
+                                            {[...Array(totalPages)].map((_, index) => (
+                                                <button
+                                                    key={index}
+                                                    onClick={() => setCurrentPage(index + 1)}
+                                                    className={`btn ${currentPage === index + 1
+                                                            ? "btn-dark"
+                                                            : "btn-outline-dark"
+                                                        }`}
+                                                >
+                                                    {index + 1}
+                                                </button>
+                                            ))}
+
+                                            <button
+                                                disabled={currentPage === totalPages}
+                                                onClick={() => setCurrentPage(currentPage + 1)}
+                                                className="btn btn-outline-dark"
+                                            >
+                                                Next
+                                            </button>
                                         </div>
                                     </div>{/* end row */}
 

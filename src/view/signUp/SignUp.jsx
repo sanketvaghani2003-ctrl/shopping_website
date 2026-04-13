@@ -102,7 +102,7 @@ const SignUp = () => {
                                     <div className='line'></div>
                                 </div>
 
-                                <form className='form' method='submit' onSubmit={handleSubmit}>
+                                <form className='form' method='post' onSubmit={handleSubmit}>
                                     <div className="row">
                                         <div className="col-6">
                                             {/* name */}
