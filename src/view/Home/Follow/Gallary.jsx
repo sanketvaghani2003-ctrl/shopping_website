@@ -3,11 +3,6 @@ import './Gallary.css'
 
 const Gallary = () => {
 
-
-
-
-
-
     return (<>
 
         <section className='gallary-animation'>
@@ -68,9 +63,6 @@ const Gallary = () => {
                     <div className='gallary-part'>
                         <img src="/Gallary/gallary7.png" className='img-fluid w-100' alt="" />
                     </div>
-
-
-
                 </div>
 
 
